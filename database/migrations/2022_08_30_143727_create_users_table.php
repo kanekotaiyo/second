@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->string('comment');
             $table->string('image_url')->nullable();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
