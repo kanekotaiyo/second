@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
-        <h1>hitchhiking</h1>
+        <h1>みんなの予約画面</h1>
         
     </body>
 </html>
