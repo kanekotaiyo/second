@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<link href="{{ asset('css/index.css') }}" rel="stylesheet">
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -11,7 +12,6 @@
     </head>
     <body>
         <h1>hitchhiking</h1>
-        
     </body>
 </html>
 @endsection

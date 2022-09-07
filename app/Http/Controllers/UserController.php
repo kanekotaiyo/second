@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -10,7 +10,7 @@ class UserController extends Controller
     {
         return view('index');
     }
-    public function mypage()
+    public function mypage(user $user)
     {
         return view('mypage');
     }
