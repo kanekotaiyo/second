@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('header')
 </head>
 <body>
     <div id="app">
@@ -27,7 +28,7 @@
                     {{ config('app.name', 'Laravel') }}
                 </a>
                 <div>
-                    <a href="/mypage">マイページ</a>
+                    <a href="/mypage/">マイページ</a>
                 </div>
                 <div>
                     <a href="/myreserve">予約状況</a>
